@@ -1,6 +1,6 @@
 # MLP
 
-Multi Layer Perceptron (C++) with ONE hidden layer
+Multi Layer Perceptron (C++) with ONE hidden layer.
 
 To compile it, use the "make" command (Makefile included).
 
