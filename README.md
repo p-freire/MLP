@@ -4,7 +4,7 @@ Multi Layer Perceptron (C++) with ONE hidden layer.
 
 To compile it, use the "make" command (Makefile included).
 
-To run: ./MLP nInput nHiddenNeurons nOutputNeurons testFile trainingFile learningRate error
+To run it: ./MLP nInput nHiddenNeurons nOutputNeurons testFile trainingFile learningRate error
   - nInput: number of inputs (i.e., number of attributes).
   - nHiddenNeurons: number of neurons in the hidden layer.
   - nOutputNeurons: number of neurons in the output layer.
@@ -12,6 +12,8 @@ To run: ./MLP nInput nHiddenNeurons nOutputNeurons testFile trainingFile learnin
   - trainingFile: file with the training cases (must have the correct class in front of each case).
   - learning_rate: learning rate of the neural network.
   - error: used as a convergence criterion.
+  
+The MLP will output to files the final network weights and the confusion matrix.
   
 Data preprocessing performed using Matlab (data standardization: mean = 0 and std_dev = 1).
 
