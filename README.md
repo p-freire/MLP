@@ -13,7 +13,7 @@ To run: ./MLP nInput nHiddenNeurons nOutputNeurons testFile trainingFile learnin
   - learning_rate: learning rate of the neural network.
   - error: used as a convergence criterion.
   
-Data preprocessing performed using Matlab (data standardization - mean = 0 and std_dev = 1).
+Data preprocessing performed using Matlab (data standardization: mean = 0 and std_dev = 1).
 
 There is a Python (version 2.7) script used to perform 10-fold cross-validation. To run it, simply type "python run_cross-validation.py". Please take a look at the file to see how it works (don't worry, it's well documented).
   
